@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", serif;
+    background-color: #f3e6d8;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    background-color: white;
+    padding-inline: 50px;
+    padding-block: 50px;
+    margin-inline: auto;
+    margin-block: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+.recipe-content img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.recipe-content h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.recipe-content p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.recipe-content .preparation-recipe {
+    padding: 50px;
+}
+
+.recipe-content .preparation-recipe h5 {
+      font-size: 22px;
+      font-weight: 600;
+      color: #7b284f;
+      margin-bottom: 12px;
+}
+
+.recipe-content .preparation-recipe {
+    width: 100%;
+    background-color: #fff5fa;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.recipe-content .preparation-recipe ul {
+    margin-left: 35px;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+.recipe-content .preparation-recipe ul b {
+    font-weight: 600;
+}
+
+.ingredients-list h3 {
+    font-size: 35px;
+    color: #854632;
+    margin-bottom: 12px;
+}
+
+.ingredients-list ul {
+    margin-left: 20px;
+    line-height: 1.8;
+}
+
+.ingredients-list {
+    margin-bottom: 20px;
+}
+
+.instructions-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.instructions-section h3 {
+    font-size: 35px;
+    color: #854632;
+    margin-bottom: 12px;
+}
+
+.instructions-section > ol {
+    color: #302d2c;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nutrition-section {
+    margin-top: 20px;
+}
+
+.nutrition-section h3 {
+    font-size: 35px;
+    color: #854632;
+    margin-bottom: 10px;
+}
+
+.nutrition-section p {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.nutrition-section .nutrition-table {
+    display: flex;
+    flex-direction: column;
+}
+
+.nutrition-section .nutrition-table .calories {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 300px;
+}
+.nutrition-section .nutrition-table .carbs {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 300px;
+}
+.nutrition-section .nutrition-table .protein {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 300px;
+}
+.nutrition-section .nutrition-table .fat {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 300px;
+}
+
+.nutrition-section .nutrition-table .amount {
+    color: #854632;
+    font-weight: 600;
+}
+
+@media (max-width: 950px) {
+    .nutrition-section .nutrition-table .calories {
+             padding-left: 40px;
+             padding-right: 40px;
+    }
+
+    .nutrition-section .nutrition-table .carbs {
+             padding-left: 40px;
+             padding-right: 40px;
+    }
+
+    .nutrition-section .nutrition-table .protein {
+             padding-left: 40px;
+             padding-right: 40px;
+    }
+
+    .nutrition-section .nutrition-table .fat {
+            padding-left: 40px;
+            padding-right: 40px;
+    }
+}
